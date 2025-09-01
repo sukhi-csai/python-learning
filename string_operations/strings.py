@@ -33,3 +33,11 @@ name = "Sukhi"
 age = "19"
 sentence = "My name is {} and I am {} years old." .format(name, age)
 print(sentence)
+name = "Sukhi"
+age = 19
+sentence = "My name is " + name + " and I am " + str(age) + " years old."
+print(sentence)
+product = "iPhone"
+price = 89999
+sentence = "The price of {} is ${}.".format(product, price)
+print(sentence)
